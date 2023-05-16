@@ -1,1 +1,1 @@
-# LinkedIn-Job-Analysis
+# LinkedIn-Job-Insights
