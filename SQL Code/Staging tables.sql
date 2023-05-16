@@ -1,0 +1,60 @@
+CREATE TABLE stg_job_listings (
+    stg_job_id            numeric,
+    employment_type       VARCHAR(255),
+    job_function          VARCHAR(255),
+    seniority_level       VARCHAR(255),
+    company               VARCHAR(255),
+    date                  TIMESTAMP,
+    education             VARCHAR(255),
+    months_experience    INTEGER,
+    title                 VARCHAR(255),
+    city                  VARCHAR(255),
+    state                 VARCHAR(255),
+    country               VARCHAR(255),
+    salary_min            NUMERIC,
+    salary_max            NUMERIC,
+    salary_type           VARCHAR(255)
+);
+
+CREATE TABLE stg_profileinfo (
+	stg_profileinfo_id    NUMERIC,
+    first_name            VARCHAR(255),
+    last_name             VARCHAR(255),
+    full_name             VARCHAR(255),
+    job_title             VARCHAR(255),
+    company_name          VARCHAR(255),
+    new_job               VARCHAR(255),
+    current_position      VARCHAR(255),
+    month_started         VARCHAR(255),
+    year_started          VARCHAR(255),
+    school                VARCHAR(255),
+    education_start       VARCHAR(255),
+    education_end         VARCHAR(255),
+    field                 VARCHAR(255),
+    shared_connections    INTEGER,
+    domain                VARCHAR(255),
+    created_date          varchar(255),
+    created_time          TIME,
+    city                  VARCHAR(255),
+    state                 VARCHAR(255),
+    country               VARCHAR(255),
+    degree_1              VARCHAR(255),
+    degree_2              VARCHAR(255)
+);
+
+CREATE TABLE stg_job_listings_DA (
+	stg_job_id      NUMERIC,
+    title           VARCHAR(255),
+    company         VARCHAR(255),
+    onsite_remote   VARCHAR(255),
+    seniority_level VARCHAR(255),
+    employment_type VARCHAR(255),
+    job_function    VARCHAR(255),
+    posted_date     DATE,
+    salary_min      NUMERIC,
+    salary_max      NUMERIC,
+    salary_type     VARCHAR(255),
+    city            VARCHAR(255),
+    state           VARCHAR(255),
+    country         VARCHAR(255)
+);
