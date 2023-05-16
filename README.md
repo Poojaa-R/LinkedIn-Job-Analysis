@@ -1,4 +1,4 @@
-# LinkedIn-Job-Insights
+# LinkedIn-Job-Insights using Data warehousing
 
 **ABOUT THE PROJECT**
 
